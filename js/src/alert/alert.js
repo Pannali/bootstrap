@@ -11,10 +11,10 @@ import {
   emulateTransitionEnd,
   getSelectorFromElement,
   getTransitionDurationFromElement
-} from './util/index'
-import Data from './dom/data'
-import EventHandler from './dom/eventHandler'
-import SelectorEngine from './dom/selectorEngine'
+} from '../util/index'
+import Data from '../dom/data'
+import EventHandler from '../dom/eventHandler'
+import SelectorEngine from '../dom/selectorEngine'
 
 /**
  * ------------------------------------------------------------------------
