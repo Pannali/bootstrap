@@ -53,6 +53,15 @@ Changes to Reboot, typography, and more.
 
 ## Components
 
+### Alerts
+- **Todo:** Remove auto-darkening of `<hr>` elements in `.alert-*` class variants. `<hr>`s use `rgba()` for their color, so these should naturally blend anyway.
+
+### Badges
+Badges were overhauled to better differentiate themselves from buttons and to better utilize utility classes.
+
+- **Todo:** Removed and replaced `.badge` modifier classes with background utility classes (e.g., use `.bg-primary` instead of `.badge-primary`)
+- **Todo:** Removed `.badge-pill` for the `.rounded-pill` utility class
+- **Todo:** Removed badge's hover and focus styles for `a.badge` and `button.badge`.
 
 ## Utilities
 - **Todo:** Drop `.text-hide` as it's an antiquated method for hiding text that shouldn't be used anymore
