@@ -20,7 +20,12 @@ See the browser and devices page for details on what is currently supported in B
 ## Sass
 Changes that have happened to our source Sass files.
 
-- **Todo:** Remove previously deprecated mixins (text-hide, retina-img, form-control-mixin)
+- **Todo:** Remove previously deprecated mixins
+  - `float()`
+  - `form-control-mixin()`
+  - `retina-img()`
+  - `text-hide()` (also dropped the associated utility class, `.text-hide`)
+  - `visibility()`
 - **Todo:** New variables?
 - **Todo:** Rearrange forms source files (under `scss/forms/`)
 - **Todo:** Rearrange grid source files (under `scss/grid/`)
@@ -50,6 +55,7 @@ Changes to Reboot, typography, and more.
 
 
 ## Utilities
+- **Todo:** Drop `.text-hide` as it's an antiquated method for hiding text that shouldn't be used anymore
 - **Todo:** Split utilities into property-value utility classes and helpers
 
 ## Build tools
